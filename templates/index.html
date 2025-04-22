@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Email Classifier</h2>
+        <form method="POST" action="/predict">
+            <textarea name="email_text" placeholder="Paste email content here..."></textarea>
+            <button type="submit">Classify</button>
+        </form>
+
+        {% if prediction %}
+            <div class="output">
+                <h3>Masked Email:</h3>
+                <p>{{ masked_email }}</p>
+
+                <h3>Preprocessed Email:</h3>
+                <p>{{ preprocessed_email }}</p>
+
+                <h3>Email Class:</h3>
+                <p><strong>{{ prediction }}</strong></p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
