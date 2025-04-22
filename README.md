@@ -42,8 +42,15 @@ PII Masking: Regex-based masking
 
 Deployment: Flask local server (easily deployable on cloud platforms)
 
+# Input 
+
 
 ![image](https://github.com/user-attachments/assets/d5d89460-6a7f-4a4e-a5ec-62fd429aa85b)
+
+# Output 
+
+![image](https://github.com/user-attachments/assets/60a9b69b-4963-4c2f-a56b-f8801cb58dd8)
+
 
 
 
