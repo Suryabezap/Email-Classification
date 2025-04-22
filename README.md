@@ -2,13 +2,13 @@
 
 This project is a web-based system that helps automate the classification of support emails for a company's service desk team. It intelligently assigns incoming emails to one of the following categories:
 
-🚨 Incident – Something broken or service not working.
+🚨 Incident 
 
-🙋 Request – Asking for access, info, or assistance.
+🙋 Request 
 
-⚙️ Problem – Root cause analysis of repeated incidents.
+⚙️ Problem 
 
-🔁 Change – Proposing or approving a change in the system.
+🔁 Change 
 
 To maintain user privacy, the system first masks any sensitive personal information (PII) in the email before classification. The masked entities include:
 
@@ -41,5 +41,9 @@ NLP: NLTK for text cleaning & stemming
 PII Masking: Regex-based masking
 
 Deployment: Flask local server (easily deployable on cloud platforms)
+
+
+![image](https://github.com/user-attachments/assets/d5d89460-6a7f-4a4e-a5ec-62fd429aa85b)
+
 
 
