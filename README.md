@@ -1,4 +1,5 @@
 # 📬 Email Classification System – Overview
+
 This project is a web-based system that helps automate the classification of support emails for a company's service desk team. It intelligently assigns incoming emails to one of the following categories:
 
 🚨 Incident – Something broken or service not working.
@@ -26,3 +27,19 @@ To maintain user privacy, the system first masks any sensitive personal informat
 🎂 Dates of Birth
 
 After the email is categorized, the original content can be restored if needed.
+
+🔧 Tech Stack
+
+Frontend: HTML + CSS
+
+Backend: Flask (Python)
+
+Model: Naive Bayes 
+
+NLP: NLTK for text cleaning & stemming
+
+PII Masking: Regex-based masking
+
+Deployment: Flask local server (easily deployable on cloud platforms)
+
+
